@@ -1,0 +1,12 @@
+ SELECT Id,
+        Name,
+        PermissionsEmailSingle,
+        PermissionsEmailMass,
+        PermissionsEditTask,
+        PermissionsEditEvent,
+        PermissionsExportReport,
+        PermissionsImportPersonal,
+        PermissionsDataExport,
+        PermissionsManageUsers
+        FROM  Profile
+        ORDER BY Name
