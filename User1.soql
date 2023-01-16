@@ -1,21 +1,7 @@
  SELECT Id,
- AccountId
-,IsActive
-,LastLoginDate
- 
  
 ,FirstName
 ,LastName
 ,Email
-,EmployeeNumber
-,FederationIdentifier   
-,IndividualId
-
-,Address
-,CompanyName
-,ContactId
-,Country
-,DelegatedApproverId
-,DigestFrequency
  
  FROM User 
