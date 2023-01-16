@@ -1,5 +1,5 @@
- SELECT Id,
- 
+ SELECT 
+Id
 ,FirstName
 ,LastName
 ,Email
