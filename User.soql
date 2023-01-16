@@ -16,7 +16,6 @@
 ,ContactId
 ,Country
 ,DelegatedApproverId
-,ForecastEnabled
 ,DigestFrequency
  
  FROM User 
