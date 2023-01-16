@@ -1,0 +1,6 @@
+SELECT Id, 
+MetadataComponentId, MetadataComponentName,MetadataComponentNamespace,
+RefMetadataComponentId,RefMetadataComponentName,RefMetadataComponentNamespace,
+RefMetadataComponentType
+
+FROM MetadataComponentDependency 
