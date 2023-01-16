@@ -1,0 +1,1 @@
+SELECT id,Group.Name,UserOrGroupId FROM GroupMember

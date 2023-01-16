@@ -1,0 +1,3 @@
+SELECT Name, (SELECT AssigneeId FROM Assignments)
+    FROM PermissionSet
+    WHERE PermissionsModifyAllData=true

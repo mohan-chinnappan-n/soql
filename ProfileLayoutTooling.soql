@@ -1,0 +1,3 @@
+SELECT LayoutId, Layout.Name, ProfileId, Profile.Name, RecordTypeId,	
+TableEnumOrId
+FROM ProfileLayout 

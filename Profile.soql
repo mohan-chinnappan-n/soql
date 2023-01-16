@@ -1,0 +1,7 @@
+SELECT Id
+    ,Name
+    ,Description
+    ,IsSsoEnabled
+    ,UserLicenseId
+    ,UserType
+     FROM Profile 

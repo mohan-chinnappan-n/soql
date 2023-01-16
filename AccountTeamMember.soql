@@ -1,0 +1,19 @@
+SELECT Id 
+    ,Title
+    ,AccountAccessLevel
+    ,AccountId
+    ,Account.Name
+    ,Account.Industry
+
+    ,UserId
+    ,User.FirstName
+    ,User.LastName
+
+
+    ,TeamMemberRole 
+    ,CaseAccessLevel
+    ,ContactAccessLevel
+    ,OpportunityAccessLevel
+    ,CurrencyIsoCode
+    ,IsDeleted
+    FROM AccountTeamMember

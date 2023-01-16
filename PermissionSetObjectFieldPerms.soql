@@ -1,0 +1,4 @@
+SELECT Label, PermissionsTransferAnyLead,
+    (SELECT SobjectType, PermissionsRead FROM ObjectPerms),
+    (SELECT SobjectType, Field, PermissionsRead FROM FieldPerms)
+    FROM PermissionSet

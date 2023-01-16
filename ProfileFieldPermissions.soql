@@ -1,4 +1,4 @@
-SELECT Id, Field, SObjectType, PermissionsRead, PermissionsEdit 
+ SELECT Id, Field, SObjectType, PermissionsRead, PermissionsEdit 
 FROM FieldPermissions 
 WHERE parentId IN 
-( SELECT Id FROM PermissionSet)
+( SELECT Id FROM PermissionSet )

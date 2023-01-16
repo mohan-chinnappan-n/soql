@@ -1,0 +1,6 @@
+SELECT Assignee.Name, PermissionSet.Id, PermissionSet.isOwnedByProfile
+    FROM PermissionSetAssignment
+    WHERE PermissionSetId
+    IN (SELECT ParentId
+    FROM ObjectPermissions
+    WHERE PermissionsRead = true)
